@@ -30,6 +30,9 @@ I did all of this on a Oracle VirtualBox VM using various versions of Linux.
   1. In the terminal, execute the following command: $ android
   2. A GUI will pop up and allow you to download more SDKs, or update existing ones.
 7. Create a sample android virtual device, AVD.
+  1. When the AVD is finally completely started, install the Ruboto-Core app from the market place.
+  2. The AVD will need to have an SD card in order to do this.
+  3. If Ruboto-Core is not installed when you attempt to run the application on the AVD, the application will attemtp to install Ruboto-Core from the Play Store. 
 8. Install [RVM](https://rvm.io/)
   1. If you're on [Windows](Setup_On_Windows.md), you'll want to use [Pik](https://github.com/vertiginous/pik), or [Uru](https://bitbucket.org/jonforums/uru) to manage your Ruby
 9. Install JRuby
