@@ -7,7 +7,7 @@
 3. Download [Apache Ant](http://ant.apache.org/)
 4. Download [JRuby](http://jruby.org/), or any [Ruby](https://www.ruby-lang.org/en/)
 
-## Steps to Setup the Environment
+## Generic Steps to Setup a Environment
 
 1. Install the Java JDK
   1. Setup the JAVA_HOME environment variable
@@ -24,19 +24,11 @@
 6. use the android tool to download the latest, or desired android versions.
 7. Create a sample android virtual device, AVD.
 8. Install [RVM](https://rvm.io/)
-  1. If you're on Windows, you'll want to use [Pik](https://github.com/vertiginous/pik), or [Uru](https://bitbucket.org/jonforums/uru) to manage your Ruby
+  1. If you're on [Windows](Setup_On_Windows.md), you'll want to use [Pik](https://github.com/vertiginous/pik), or [Uru](https://bitbucket.org/jonforums/uru) to manage your Ruby
 9. Install JRuby
 10. Make sure to install rake, bundler, and [ruboto](https://github.com/ruboto/ruboto)
 11. Attempt to create a Ruboto Project
 
 ## Resources
 
-1. http://www.ibm.com/developerworks/library/wa-ruby/
-2. http://developer.android.com/sdk/index.html#Other
-3. https://github.com/ruboto/ruboto/blob/master/README.md
-4. https://github.com/ruboto/ruboto/wiki/Setting-Up-a-Ruboto-Development-Environment
-5. https://github.com/ruboto/ruboto/wiki/Environment-setup-for-ubuntu
-6. https://github.com/ruboto/ruboto/wiki/Environment-setup-for-windows
-7. https://help.github.com/articles/writing-on-github/
-8. https://help.github.com/articles/markdown-basics/
-9. https://help.github.com/articles/github-flavored-markdown/
+[Resources are listed here.](Resource_Links.md)
