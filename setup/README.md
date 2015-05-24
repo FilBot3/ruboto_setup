@@ -2,10 +2,10 @@
 
 ## Prerequisits  
 
-1. Download the Android SDK from the Android Developer Site.
-2. Download Java JDK
-3. Download Apache Ant
-4. Download JRuby, or any Ruby
+1. Download the [Android SDK](http://developer.android.com/sdk/index.html) from the Android Developer Site.
+2. Download [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+3. Download [Apache Ant](http://ant.apache.org/)
+4. Download [JRuby](http://jruby.org/), or any [Ruby](https://www.ruby-lang.org/en/)
 
 ## Steps to Setup the Environment
 
@@ -23,9 +23,10 @@
   1. Linux systems, or OS's with a package manager should have this already taken care of.  
 6. use the android tool to download the latest, or desired android versions.
 7. Create a sample android virtual device, AVD.
-8. Install RVM
+8. Install [RVM](https://rvm.io/)
+  1. If you're on Windows, you'll want to use [Pik](https://github.com/vertiginous/pik), or [Uru](https://bitbucket.org/jonforums/uru) to manage your Ruby
 9. Install JRuby
-10. Make sure to install rake, bundler, and ruboto
+10. Make sure to install rake, bundler, and [ruboto](https://github.com/ruboto/ruboto)
 11. Attempt to create a Ruboto Project
 
 ## Resources
