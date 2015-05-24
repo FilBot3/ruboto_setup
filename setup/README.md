@@ -34,7 +34,7 @@ I am currently setting this up on my Windows machine as well to see if this work
   1. When the AVD is finally completely started, install the Ruboto-Core app from the market place.
   2. The AVD will need to have an SD card in order to do this.
   3. If Ruboto-Core is not installed when you attempt to run the application on the AVD, the application will attemtp to install Ruboto-Core from the Play Store.
-8. Start the Sample AVD, named android_sample in here.
+8. Start the Sample AVD, named android_sample in here.    
   ```
   $ emulator -list-avds
   $ emulator -avd android_sample
@@ -44,11 +44,11 @@ I am currently setting this up on my Windows machine as well to see if this work
   1. If you're on [Windows](Setup_On_Windows.md), you'll want to use [Pik](https://github.com/vertiginous/pik), or [Uru](https://bitbucket.org/jonforums/uru) to manage your Ruby
 10. Install JRuby
 11. Make sure to install rake, bundler, and [ruboto](https://github.com/ruboto/ruboto)
-12. Create a Ruboto Project
+12. Create a Ruboto Project  
   ```
   ruboto gen app --package org.ruboto.example.quick_start --path quick_start --name quick_start --target android-22 --activity quick_start
   ```
-13. Place the demo application on the AVD.
+13. Place the demo application on the AVD.   
   ```
   rake install
   ```
